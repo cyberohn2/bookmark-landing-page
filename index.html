@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header aria-hidden="true" class="page-header flexbox">
+    <div class="header-imgs flexbox">
+      <img src="./images/logo-bookmark.svg" alt="logo" class="logo">
+      <img src="./images/icon-hamburger.svg" alt="" class="menu-btn">
+    </div>
+    
+    <nav class="flexbox">
+      <ul class="navlist flexbox">
+        <li class="nav-li">Features</li>
+        <li class="nav-li">Pricing</li>
+        <li class="nav-li">Contact</li>
+        <li class="nav-li login sec-btn">Login</li>
+      </ul>
+      <div class="nav-social-links flexbox">
+        <a href=""><img src="./images/icon-facebook.svg" alt=""></a>
+        <a href=""><img src="./images/icon-twitter.svg" alt=""></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-img"></div>
+      <div class="hero-text">
+        <h1 class="page-title">A Simple Bookmark Manager</h1>
+        <p class="page-desc">A clean and simple interface to organize your favourite websites. Open a new 
+          browser tab and see your sites load instantly. Try it for free.</p>
+          <div class="cta-btns flexbox">
+            <button class="btn-1 pry-btn">Get it on Chrome</button>
+            <button class="btn-2">Get it on Firefox</button>
+          </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="section-desc">
+        <h2>Features</h2>
+        <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+          Your bookmarks sync between your devices so you can access them on the go.</p>
+      </div>
+      <div class="tab-btns-container flexbox">
+        <button class="tab-one-btn active"><span>Simple Bookmarking</span></button>
+        <button class="tab-two-btn"><span>Speedy Searching</span></button>
+        <button class="tab-three-btn"><span>Easy Sharing</span></button>
+      </div>
+      <div class="tabs-container">
+        <div class="tab tab-one active">
+          <div class="tab-img"></div>
+          <div class="tab-text">
+            <h2 class="tab-title">Bookmark in one click</h2>
+            <p class="tab-desc">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+              gives you complete control over how you manage your favourite sites.</p>
+              <a href="" class="tab-cta pry-btn">More Info</a>
+          </div>
+        </div>
+        <div class="tab tab-two">
+          <div class="tab-img"></div>
+          <div class="tab-text">
+            <h2 class="tab-title">Intelligent search</h2>
+            <p class="tab-desc">Our powerful search feature will help you find saved sites in no time at all. 
+              No need to trawl through all of your bookmarks.</p>
+              <a href="" class="tab-cta pry-btn">More Info</a>
+          </div>
+        </div>
+        <div class="tab tab-three">
+          <div class="tab-img"></div>
+          <div class="tab-text">
+            <h2 class="tab-title">Share your bookmarks</h2>
+            <p class="tab-desc">Easily share your bookmarks and collections with others. Create a shareable 
+              link that you can send at the click of a button.
+            </p>
+              <a href="" class="tab-cta pry-btn">More Info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="download-sect">
+      <div class="section-desc">
+        <h2>Download the extension</h2>
+        <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+          got a favourite you’d like us to prioritize.</p>
+      </div>
+      <div class="browser-container flexbox">
+        <div class="browser">
+          <img src="./images/logo-chrome.svg" alt="">
+          <div class="browser-text">
+            <h3>Add to Chrome</h3>
+            <p>Minimum version 62</p>
+          </div>
+          <button class="add-ext pry-btn">Add & Install Extension</button>
+        </div>
+        <div class="browser">
+          <img src="./images/logo-firefox.svg" alt="">
+          <div class="browser-text">
+            <h3>Add to Firefox</h3>
+            <p>Minimum version 55</p>
+          </div>
+          <button class="add-ext pry-btn">Add & Install Extension</button>
+        </div>
+        <div class="browser">
+          <img src="./images/logo-opera.svg" alt="">
+          <div class="browser-text">
+            <h3>Add to Opera</h3>
+            <p>Minimum version 46</p>
+          </div>
+          <button class="add-ext pry-btn">Add & Install Extension</button>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="section-desc">
+        <h2>Frequently Asked Questions</h2>
+        <p>Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+      </div>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-title flexbox">
+            <h4>What is Bookmark?</h4>
+            <img src="./images/icon-arrow.svg" alt="">
+          </div>
+          <p class="faq-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+          </p>
+        </div>
+        <div class="faq-item">
+          <div class="faq-title flexbox">
+            <h4>How can I request a new browser?</h4>
+            <img src="./images/icon-arrow.svg" alt="">
+          </div>
+          <p class="faq-desc">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+          </p>
+        </div>
+        <div class="faq-item">
+          <div class="faq-title flexbox">
+            <h4>Is there a mobile app?</h4>
+            <img src="./images/icon-arrow.svg" alt="">
+          </div>
+          <p class="faq-desc">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.
+          </p>
+        </div>
+        <div class="faq-item">
+          <div class="faq-title flexbox">
+            <h4>What about other Chromium browsers?</h4>
+            <img src="./images/icon-arrow.svg" alt="">
+          </div>
+          <p class="faq-desc">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.
+          </p>
+        </div>
+      </div>
+      <a href="#" class="faq-cta pry-btn">More Info</a>
+    </section>
+  </main>
+    <section class="newsletter">
+      <div class="newsletter-cont">
+       <p class="stats">35,000+ ALREADY JOINED</p>
+       <h2>Stay up-to-date with what we’re doing</h2>
+       <form action="" class="newsletter-form flexbox">
+        <div class="input-control">
+          <div class="input">
+          <input type="email" id="user-input" placeholder="example@email.com">
+          <img src="./images/icon-error.svg" alt="" class="err-img">
+        </div>
+        <div class="err-msg">Whoops make sure it's an email</div>
+        </div>
+        <input id="submit-btn" class="sec-btn" type="submit" value="Contact Us">
+       </form>
+      </div>
+    </section>
+  <footer>
+    <div class="footer-container flexbox">
+      <img src="./images/logo-bookmark - Copy.svg" alt="" class="footer-logo">
+      <ul class="footer-navlist flexbox">
+        <li><a href="">features</a></li>
+        <li><a href="">pricing</a></li>
+        <li><a href="">contact</a></li>
+      </ul>
+      <div class="footer-soclink flexbox">
+        <a href=""><img src="./images/icon-facebook.svg" alt=""></a>
+        <a href=""><img src="./images/icon-twitter.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
