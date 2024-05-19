@@ -40,6 +40,7 @@
 
 /* default styles */
 body{
+    font-family: sans-serif;
     font-size: var(--fs);
     overflow-x: hidden;
 }
@@ -127,7 +128,10 @@ header[aria-hidden="true"] nav{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
+    main{
+        overflow-x: unset;
+    }
     header{
         position: static;
         max-width: 1168px;
